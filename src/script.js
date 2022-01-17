@@ -150,7 +150,6 @@ const tick = () =>
 {
   camera.lookAt( scene.position )
 
-
   // Update Orbital Controls
   controls.update()
 
