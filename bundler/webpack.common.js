@@ -69,6 +69,21 @@ module.exports = {
                 ]
             },
 
+            // Models
+            {
+                test: /\.(obj)$/,
+                use:
+                [
+                    {
+                        loader: 'file-loader',
+                        options:
+                        {
+                            outputPath: 'assets/models/'
+                        }
+                    }
+                ]
+            },
+
             // Fonts
             {
                 test: /\.(ttf|eot|woff|woff2)$/,
