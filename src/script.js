@@ -3,14 +3,14 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js'
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js'
-import * as dat from 'dat.gui'
+// import * as dat from 'dat.gui'
 
 let mouseX = 0, mouseY = 0
 
 let myObj
 
 // Debug
-const gui = new dat.GUI()
+// const gui = new dat.GUI()
 
 // instantiate a loader
 const loader = new OBJLoader()
